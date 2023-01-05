@@ -68,12 +68,14 @@
     "@upstatement/prettier-config": "^1.0.0",
     "babel-preset-gatsby": "^1.4.0",
     "eslint": "^7.25.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.8.1"
   }
 }
