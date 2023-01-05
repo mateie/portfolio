@@ -143,7 +143,7 @@ const About = () => {
                     <div>
                         <p>
                             Hi! My name is Mate and I like to build websites and
-                            apps. When I was young kid I was interesting in web
+                            apps. When I was young kid I was interested in web
                             development, because I wanted to make a website for
                             my Minecraft server. Trying to make a website for it
                             taught me quite a bit of HTML &amp; CSS.
