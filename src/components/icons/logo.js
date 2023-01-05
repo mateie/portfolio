@@ -1,24 +1,29 @@
-import React from 'react';
+import React from "react";
 
 const IconLogo = () => (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 100 100">
-    <title>Logo</title>
-    <g>
-      <g>
-        <path d="" fill="currentColor" />
-      </g>
-      <rect
-        transform="translate(-13.000000, .000000)"
-        width="160"
-        height="80"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </g>
-  </svg>
+    <svg
+        id="logo"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        viewBox="0 0 100 100"
+    >
+        <title>Logo</title>
+        <g>
+            <g>
+                <path d="" fill="currentColor" />
+            </g>
+            <rect
+                transform="translate(-13.000000, .000000)"
+                width="160"
+                height="80"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </g>
+    </svg>
 );
 
 /**
