@@ -68,9 +68,9 @@ const Hero = () => {
     const four = (
         <>
             <p>
-                I’m a full-stack web developer and currently unemployed, looking
-                for opportunities to provide quality software solutions. I work
-                great in a team and I’m always open to new ideas and challenges.
+                I’m a full-stack web developer, looking for opportunities to
+                provide quality software solutions. I work great in a team and
+                I’m always open to new ideas and challenges.
             </p>
         </>
     );
