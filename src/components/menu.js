@@ -46,7 +46,7 @@ const StyledHamburgerButton = styled.button`
         width: var(--hamburger-width);
         height: 2px;
         border-radius: var(--border-radius);
-        background-color: var(--green);
+        background-image: var(--green);
         transition-duration: 0.22s;
         transition-property: transform;
         transition-delay: ${(props) => (props.menuOpen ? "0.12s" : "0s")};
@@ -102,7 +102,11 @@ const StyledSidebar = styled.aside`
         width: min(75vw, 400px);
         height: 100vh;
         outline: 0;
-        background-color: var(--light-navy);
+        background-image: linear-gradient(
+            to bottom,
+            rgba(29, 51, 37, 0.85) 10%,
+            rgba(18, 18, 18, 0.85) 50%
+        );
         box-shadow: -10px 0px 30px -15px var(--navy-shadow);
         z-index: 9;
         transform: translateX(${(props) => (props.menuOpen ? 0 : 100)}vw);
