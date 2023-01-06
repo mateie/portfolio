@@ -79,7 +79,7 @@ const StyledTabButton = styled.button`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     text-align: left;
-    white-space: nowrap;
+    word-wrap: break-word;
 
     @media (max-width: 768px) {
         padding: 0 15px 2px;
@@ -95,7 +95,11 @@ const StyledTabButton = styled.button`
 
     &:hover,
     &:focus {
-        background-color: var(--light-navy);
+        background-image: linear-gradient(
+            to bottom right,
+            rgba(29, 51, 37) 20%,
+            rgba(18, 18, 18) 60%
+        );
     }
 `;
 
