@@ -193,11 +193,11 @@ const About = () => {
                     <div className="wrapper">
                         <StaticImage
                             className="img"
-                            src="../../images/me.jpg"
+                            src="/me.png"
                             width={500}
                             quality={95}
                             formats={["AUTO", "WEBP", "AVIF"]}
-                            alt="Headshot"
+                            alt="Me"
                         />
                     </div>
                 </StyledPic>
