@@ -4,7 +4,7 @@ title: 'Full-Stack Web Developer'
 company: 'SMCNational'
 location: 'Roseville, CA'
 range: 'October 2018 - March 2021'
-url: 'https://www.apple.com/music/'
+url: 'https://smcnational.com'
 ---
 
 - Communicated and worked with the team, completed tasks with dedication, and quality
