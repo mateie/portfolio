@@ -16,9 +16,15 @@ const Sidebar = () => {
                     <div className="title">Full Stack Software Engineer</div>
                 </div>
                 <div className="resume">
-                    <button className="bg-green-500 text-white p-2 pr-5 pl-5 rounded-md">
-                        Resume
-                    </button>
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-green-500 text-white p-2 pr-5 pl-5 rounded-md">
+                            Resume
+                        </button>
+                    </a>
                 </div>
             </div>
             <Navigation />
