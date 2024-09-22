@@ -18,3 +18,9 @@
     font-family: "Black Ops One", sans-serif;
     font-weight: 600;
 }
+
+.vertical_line {
+    height: 20px;
+    width: 2px;
+    background-color: #444;
+}

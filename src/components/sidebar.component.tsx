@@ -22,7 +22,7 @@ const navLinks = [
 const SidebarMobile = () => {
     return (
         <header className="flex justify-around flex-col items-center w-full p-8 shadow-2xl bg-neutral-700/10 border-b border-red-950">
-            <div className="flex flex-col md:gap-0 gap-2">
+            <div className="flex flex-col justify-center items-center md:gap-0 gap-2">
                 <div className="flex flex-col justify-center items-center header">
                     <span className="header__name">Mate Machitidze</span>
                     <span className="font-semibold text-neutral-300">
@@ -30,9 +30,13 @@ const SidebarMobile = () => {
                     </span>
                 </div>
                 <nav>
-                    <ul className="flex items-start gap-2 list-none">
-                        {navLinks.map((link) => (
-                            <li className="link" key={link.name}>
+                    <ul className="flex ml-9 items-center justify-center gap-2 list-none">
+                        {navLinks.map((link, i) => (
+                            <li
+                                className="link flex items-center justify-center gap-2"
+                                key={link.name}
+                            >
+                                {i !== 0 && <div className="vertical_line" />}
                                 <a
                                     href={link.href}
                                     className={classNames(
